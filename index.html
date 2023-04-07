@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,600&family=Kanit:ital,wght@1,600&family=Righteous&display=swap" rel="stylesheet">
+    <title>lista de tareas</title>
+</head>
+<style>
+    
+    .button2 {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+ 
+}
+
+.button2:hover {background-color: #3e8e41}
+
+.button2:active {
+  background-color: #3e8e41;
+  
+  transform: translateY(4px);
+}
+    
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(7, 6, 6); 
+  border-radius: 10px;
+}
+ 
+
+::-webkit-scrollbar-thumb {
+  background: rgb(70, 0, 102); 
+  border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3e00b1; 
+}
+
+.button {
+    display: inline-block;
+    padding: 7px 14px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #029de6;
+    border: none;
+    border-radius: 15px;
+
+    
+  }
+  .button:hover {background-color: #300046}
+
+.button:active {
+  background-color: #0071a5;
+  
+  transform: translateY(4px);
+}
+
+.button3 {
+  padding: 16px 26px;
+  font-size: 26px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #aa0404;
+  border: none;
+  border-radius: 15px;
+  
+}
+
+.button3:hover {background-color: #490000}
+
+.button3:active {
+  background-color: #6e0101;
+  
+  transform: translateY(4px);
+}
+</style>
+<body>
+    <h1><p 
+        ; > Agrega o elimina tareas, selecciona ¨✔¨ cuando todas tus tareas esten listas </p></h1>
+    
+    
+    <section class="flex-container"> 
+<div class="tarea" >Tarea:
+    <input type="text" id="myInput" placeholder="Escribe tu tarea" class="input" style="border-radius: 3%;">
+  
+   <button class="button">Agregar</button>
+   
+   
+</div>
+        <div 
+        
+        class="lista" style="overflow-y: scroll;" >
+
+            
+        
+            <form class="lista"  >
+                <input type="checkbox"  id="li1" name="vehicle1">
+                <label for="li1"> Lavar la Ropa</label><br>
+                <input type="checkbox" id="li2" name="vehicle2" >
+                <label for="li2"> Hacer la tarea</label><br>
+                <input type="checkbox" id="li3" name="li3" >
+                <label for="li3"> Pasear al perro</label><br><br>
+            
+                
+              </form>
+        </div>
+        
+        <div>
+        <button class="button2">✔</button>
+
+        <button class="button3">X</button>
+
+        </div>
+    </section>
+    <footer class="footer">
+        <p>Pagina para test<br>
+        <a href="https://edtecnica.info/dashboard/" style="color: #fff;">Pagina de cursos</a></p>
+      </footer>
+</body>
+</html>

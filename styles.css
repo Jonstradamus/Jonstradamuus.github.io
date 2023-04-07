@@ -1,0 +1,118 @@
+body{
+    background-image: url(img/F85GHXH-purple-galaxy-wallpaper.jpg);
+
+
+}
+h1{
+     color: white;
+     font-family: 'Cabin', sans-serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Righteous', cursive;
+justify-content: center;
+text-align: center;
+
+}
+.tarea{
+    border: 1px solid rgb(rgb(76, 0, 128), green, blue);
+    background-color: rgb(119, 0, 69);
+    color: rgb(245, 239, 239);
+    font-family: 'Cabin', sans-serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Righteous', cursive;
+width: 400px;
+height: 120px;
+line-height: 120px;
+text-align: center;
+margin: 5px;
+border-radius: 3%;
+
+    
+}
+.caja{
+    border: 1px solid rgb(rgb(2, 15, 194), green, blue);
+    background-color: rgb(26, 1, 87);
+    color: rgb(247, 242, 242);
+    font-family: 'Cabin', sans-serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Righteous', cursive;
+width: 400px;
+height: 120px;
+line-height: 120px;
+text-align: center;
+margin: 5px;
+border-radius: 3%;
+}
+.lista{
+    border: 1px solid rgb(rgb(2, 15, 194), green, blue);
+    background-color: #530d55;
+    color: rgb(252, 247, 247);
+    font-family: 'Cabin', sans-serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Righteous', cursive;
+width: 400px;
+height: 300px;
+line-height: 120px;
+text-align: center;
+margin: 5px;
+border-radius: 3%;
+
+
+
+
+}
+
+h1{
+    font-family: 'Cabin', sans-serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Righteous', cursive;
+}
+.flex-container{
+border: 1px solid rgb(rgb(0, 0, 0), rgb(0, 8, 0), rgb(0, 0, 0));
+background:#000000;
+display: flex;
+padding: 10px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 80%;
+margin: auto;
+height: 600px;
+border-radius: 3%;
+
+
+
+}
+
+ul{
+    cursor: pointer;
+    position: relative;
+background: #4c1679;
+    font-size: 18px;
+    transition: 0.2s;
+    border-radius: 3%;
+}
+    
+.input {
+    font-family: 'Cabin', sans-serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Righteous', cursive;
+
+
+}
+
+.footer {
+    justify-content: center;
+    font-family: 'Cabin', sans-serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Righteous', cursive;
+color: white;
+justify-items: center;
+text-justify: auto;
+text-align: center;
+}
+
+ul li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+  }
